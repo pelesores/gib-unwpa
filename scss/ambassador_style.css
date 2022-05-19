@@ -1,0 +1,39 @@
+.header-bg {
+  background-color: #2861F6;
+  border-bottom: 10px solid #264caa;
+}
+
+.logo-bg {
+  background-image: url("../assets/homepage/header-logobg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.pageCarousel {
+  border-bottom: 10px solid #264caa;
+}
+
+ul.social-media li img {
+  width: 20px;
+  display: inline;
+}
+
+.latest-news-and-events .news-and-events-container {
+  border: 5px solid #264caa;
+  padding: 5px;
+}
+
+.latest-news-and-events .news-and-events-container .row {
+  border: 5px solid #ffc228;
+  padding: 5px;
+  margin: 5px 0px;
+}
+
+.latest-news-and-events h3 {
+  color: #264caa;
+}
+
+.recent-events {
+  background-image: linear-gradient(165deg, #330d69, #30c9cd);
+}
+/*# sourceMappingURL=ambassador_style.css.map */

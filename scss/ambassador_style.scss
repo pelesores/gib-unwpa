@@ -1,0 +1,53 @@
+$borderColor1: #264caa;
+$borderColor2: #ffc228;
+$backgroundColor: #2861F6;
+$gradientColor1: #330d69;
+$gradientColor2: #30c9cd;
+
+.header-bg {
+    background-color: $backgroundColor;
+    border-bottom: 10px solid $borderColor1;
+}
+
+.logo-bg {
+    background-image: url('../assets/homepage/header-logobg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.pageCarousel {
+    border-bottom: 10px solid $borderColor1;
+}
+
+ul.social-media {
+    li {
+        img {
+            width: 20px;
+            display: inline;
+        }
+    }
+}
+
+.latest-news-and-events {
+    
+    .news-and-events-container {
+        border: 5px solid $borderColor1;
+        padding: 5px;
+
+        .row {
+            border: 5px solid $borderColor2;
+            padding: 5px;
+            margin: 5px 0px;
+        }
+    }
+
+    h3 {
+        color: $borderColor1;
+    }
+}
+
+.recent-events {
+    background-image: linear-gradient(165deg, $gradientColor1, $gradientColor2);
+
+}
+

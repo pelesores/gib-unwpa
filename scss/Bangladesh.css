@@ -1,0 +1,435 @@
+/* image-top warning logo*/
+
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  /*Country Name*/
+  .country-name{
+    margin-top: 58px;
+    margin-left: 317px;
+    color: white;
+  }
+  
+
+  .card-img-top-bangladesh{
+    margin-top: 40px;
+    align-items: center ;
+  }
+  
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+      font-family: 'Source Sans Pro', sans-serif
+  }
+
+
+  /*Bangladesh Ambassadors Image height*/
+  .card-img-top{
+      height: 350px;
+  }
+
+  .row{
+      padding-left: 29px;
+      padding-right: 29px;
+  }
+
+   /*Bangladesh Ambassadors Image padding*/
+   .view{
+    height: 38rem;
+    padding-top: 50px; 
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    background-color: rgb(7, 50, 124);
+  }
+
+  .drop-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .container-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 45px;
+    padding-top: 30px;
+    height: 100px;
+  }
+
+  .container-dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-menu a:hover {background-color: #f1f1f1;}
+  
+  .container-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .container-dropdown:hover .drop-btn {
+    background-color: darkblue;
+  }
+
+/* XX-Large devices (large desktops, more than 1400px)*/
+  @media(min-width: 1400px){
+    .choose-country{
+      font-size: 25px;
+      text-align: center;
+    }
+    .responsive-font{
+      margin-top: 10px;
+      margin-left: 300px;
+      font-size: 70px;
+      position: relative;
+      top: -14px;
+    }
+    .intro{
+      text-align: center;
+      font-size: 40px;
+      margin-top: 70px;
+      margin-bottom: 50px;
+    }
+    .card-text{
+      font-size: 20px;
+    }
+    .view.overlay.text-center {
+      height: 52rem;
+    }
+    .ambassador {
+      font-size: 35px;
+    } 
+    img.card-img-top {
+      height: 505px;
+      position: relative;
+      top: 19px;
+    }
+    .spinner-grow.text-light.mb-md-1.mb-lg-2.mb-xl-2\.8 {
+      position: relative;
+      width: 69px;
+      height: 63px;
+      top: 3px;
+    }
+    p.card-text {
+      font-size: 23px;
+    }
+  }
+
+/* X-Large devices (large desktops, less than 1400px)*/
+  @media (max-width: 1399px) {
+    .choose-country{
+      font-size: 23px;
+      text-align: center;
+    }
+    .card{
+      margin-top: 17px;
+    }
+    .responsive-font{
+      font-size: 60px;
+      margin-top: 12px;
+      margin-left: 230px;
+    }
+    .intro{
+      text-align: center;
+      font-size: 35px;
+      margin-top: 70px;
+      margin-bottom: 50px;
+    }
+    .card-text{
+      font-size: 18px;
+    }
+    .card-text-up{
+      font-size: 20px;
+    }
+    .ambassador {
+      font-size: 32px;
+    }
+    .view.overlay.text-center {
+      height: 48rem;
+    }
+    img.card-img-top {
+      position: relative;
+      top: 27px;
+      height: 432px;
+    }
+    p.card-text {
+      font-size: 21px;
+  }
+    .spinner-grow.text-light.mb-md-1.mb-lg-2.mb-xl-2\.8 {
+      position: relative;
+      top: 5px;
+      width: 68px;
+      height: 58px;
+    }
+  }
+ 
+/* If the screen size is smaller than 1200px, set the font-size to 30px */
+@media (max-width: 1199px) {
+  .choose-country{
+    font-size: 21px;
+    text-align: center;
+  }
+  .card{
+    margin-top: 17px;
+  }
+  .responsive-font {
+    font-size: 60px;
+    margin-top: 12px;
+    margin-left: 230px;
+    position: relative;
+    padding-left: 8px;
+  } 
+  .intro{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  .card-text{
+    font-size: 16px;
+  }
+  .ambassador {
+    font-size: 26px;
+  }
+  .view.overlay.text-center {
+    height: 47rem;
+  }
+  img.card-img-top {
+    position: relative;
+    top: 17px;
+  }
+  .spinner-grow.text-light.mb-md-1.mb-lg-2.mb-xl-2\.8 {
+    height: 52px;
+    width: 51px;
+    position: relative;
+    top: 2px;
+  }
+  button.drop-btn.btn.btn-secondary.btn-lg.dropdown-toggle-split.badge.rounded-pill {
+    position: relative;
+    position: relative;
+  }
+  p.card-text {
+    font-size: 20px;
+}
+}
+
+/*Medium devices (less than 992px)*/
+@media (max-width: 991px) { 
+  .choose-country{
+    font-size: 19px;
+    text-align: center;
+  }
+  .card{
+    margin-top: 17px;
+  }
+  .responsive-font{
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: 120px;
+    position: relative;
+    padding-left: 7px;
+  }
+  .intro{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  .card-text{
+    font-size: 14px;
+  }
+  .ambassador {
+    font-size: 33px;
+  }
+  p.card-text {
+    font-size: 19px;
+  }
+  img.card-img-top {
+    width: 560px;
+    position: relative;
+    height: 512px;
+    top: 21px;
+  }
+  .view.overlay.text-center {
+    height: 49rem;
+  }
+  .spinner-grow.text-light.mb-md-1.mb-lg-2.mb-xl-2\.8 {
+    position: relative;
+    top: 1px;
+    width: 41px;
+    left: 1px;
+    height: 38px;
+  }
+ }
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) { 
+  .choose-country{
+    font-size: 17px;
+    text-align: center;
+  }
+  .card{
+    margin-top: 20px;
+  }
+  .responsive-font{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+  .intro{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  .card-text{
+    font-size: 12px;
+  }
+  .ambassador {
+    font-size: 26px;
+  }
+  p.card-text {
+    font-size: 17px;
+  }
+  img.card-img-top {
+    width: 428px;
+    width: 407px;
+    height: 347px;
+    position: relative;
+    top: 15px;
+  } 
+  .view.overlay.text-center {
+    height: 36rem;
+  }
+  .spinner-grow.text-light.mb-md-1.mb-lg-2.mb-xl-2\.8 {
+    position: relative;
+    height: 29px;
+    width: 32px;
+    top: -1px;
+  }
+}
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 600px) { 
+  button.drop-btn.btn.btn-secondary.btn-lg.dropdown-toggle-split.badge.rounded-pill {
+    position: relative;
+    top: -8px;
+    left: 24px;
+  }
+  .ambassador {
+    font-size: 18px;
+  }
+  p.card-text {
+    font-size: 14px;
+  }
+  .choose-country{
+    font-size: 13px;
+    text-align: center;
+  }
+  .card{
+    margin-top: 17px;
+    border-radius: 20%;
+  }
+  .container-dropdown{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 30px;
+    height: 80px;
+  }
+  .responsive-font{
+    margin-left: 68px;
+    top: -30px;
+    margin-top: 30px;
+    position: relative;
+    font-size: 29px;
+  }
+  .intro {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 17px;
+    margin-bottom: 25px;
+  }
+  .sample{
+    text-align: center;
+    border-width: 20px;
+  }
+  .spinner-grow{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+  }
+ }
+
+ @media(max-width: 375px){
+  button.drop-btn.btn.btn-secondary.btn-lg.dropdown-toggle-split.badge.rounded-pill {
+    position: relative;
+    top: -29px;
+    left: 14px;
+  }
+  .responsive-font {
+    margin-left: 19px;
+    top: -46px;
+    margin-top: 30px;
+    position: relative;
+    font-size: 18px;
+  } 
+  .spinner-grow.text-light.mb-md-1.mb-lg-2.mb-xl-2\.8 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 21px;
+    height: 18px;
+    margin-right: 0px;
+  } 
+  .intro {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 11px;
+    margin-bottom: 22px;
+  }
+  .ambassador {
+    font-weight: normal;
+  }
+  img.card-img-top {
+    top: 30px;
+    position: relative;
+    width: 240px;
+    left: -28px;
+  }
+  p.card-text {
+    font-size: 13px;
+  }
+ }
